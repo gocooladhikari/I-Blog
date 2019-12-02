@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/dd9c5f9015.js" crossorigin="anonymous"></script>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Lora&display=swap" rel="stylesheet">
+
+
+    <!--CSS style-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>I-Blog</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><span>I</span>Blog</h1>
+        </div>
+        <i class="fa fa-bars menu-toogle" id="menu-toogle"></i>
+        <ul class="nav" id="nav-bar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    I-Blog
+                    <i class="fa fa-chevron-down" style="font-size: 0.8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="logout">logout</a></li> 
+                </ul>
+            </li>
+            <li>
+                <a href="#">Home</a>
+                <ul style="right: 0px;">
+                        <li><a href="#">list one</a></li>
+                        <li><a href="#" >list two</a></li> 
+                    </ul>
+            </li>
+
+        </ul>
+    </header>
+
+    <div class="auth-content">
+        <form action="register.html" method="post"></form>
+        <h2 class="form-title">Register</h2>
+
+        <div>
+            <label>Username</label>
+            <input type="text" name="username" class="text-input">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" class="text-input">
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="password" class="text-input">
+        </div>
+        <div>
+            <label>Password Confirmation</label>
+            <input type="password" name="passwordConf" class="text-input">
+        </div>
+        
+    </div>
+
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Slick carausol -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--Custom Script-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
